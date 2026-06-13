@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <title>My Games</title>
+  <style>
+    body {
+      background: #0a0a0f;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      font-family: 'Courier New', monospace;
+      color: #ccc;
+    }
+    h1 { font-size: 2rem; letter-spacing: 0.3em; color: #fff; margin-bottom: 40px; }
+    .games { display: flex; gap: 20px; }
+    a {
+      display: block;
+      padding: 20px 40px;
+      background: #0f0f1a;
+      border: 1px solid #2a2a3a;
+      color: #fff;
+      text-decoration: none;
+      font-size: 1.2rem;
+      letter-spacing: 0.2em;
+      border-radius: 6px;
+      transition: border-color 0.2s;
+    }
+    a:hover { border-color: #a855f7; color: #a855f7; }
+  </style>
+</head>
+<body>
+  <h1>MY GAMES</h1>
+  <div class="games">
+    <a href="snake.html">🐍 Snake</a>
+    <a href="tetris.html">🟦 Tetris</a>
+  </div>
+</body>
+</html>
